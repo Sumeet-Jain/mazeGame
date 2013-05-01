@@ -75,7 +75,7 @@ function Layout_createBoard(){
     }
 
     if(document.getElementById("womp") == null){
-        document.write("<audio id=\"womp\" src=\"womp.mp3\" preload = \"auto\" > </audio>");
+        document.write("<audio id=\"womp\" src=\"audio/womp.mp3\" preload = \"auto\" > </audio>");
     }
 
     document.write((document.getElementById("board") == null) ? "<div id = \"board\">" : "");
